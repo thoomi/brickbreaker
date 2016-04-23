@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\..\inc\world\world_map.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\world\world_region.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\world\world_entity.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\world\world_entity_folder.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\world\world_meta_entity.h">
+      <Filter>meta_entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\world\world_meta_entity_folder.h">
+      <Filter>meta_entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\world\world_facet_container.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\world\world_player.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\world\world_player_manager.h">
+      <Filter>player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\world\world_map.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\world_region.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\world_entity.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\world_entity_folder.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\world_meta_entity.cpp">
+      <Filter>meta_entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\world_meta_entity_folder.cpp">
+      <Filter>meta_entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\world_player.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\world_player_manager.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="container">
+      <UniqueIdentifier>{8bbee999-127f-4867-b1a5-9fb1ec5f6d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{788923a4-b220-49b0-9b75-4a6cc5d0a954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity">
+      <UniqueIdentifier>{4efa8fd3-7b95-41cc-b940-a451684a3ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="meta_entity">
+      <UniqueIdentifier>{7494d2d4-34cf-49ea-adac-47700d54b334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{67787d7d-fc7d-40a3-8bc1-4ebd947ae4d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

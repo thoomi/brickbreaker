@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\..\inc\gui\gui_event_manager.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\gui\gui_event_listener.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\gui\gui_play_state.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\gui\gui_element.h">
+      <Filter>elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\gui\gui_main_menu_state.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\gui\gui_element_number.h">
+      <Filter>elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\gui\gui_element_options_list.h">
+      <Filter>elements</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\gui\gui_event_manager.cpp">
+      <Filter>event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gui\gui_play_state.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gui\gui_element.cpp">
+      <Filter>elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gui\gui_main_menu_state.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gui\gui_element_number.cpp">
+      <Filter>elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gui\gui_element_options_list.cpp">
+      <Filter>elements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="event">
+      <UniqueIdentifier>{7f876bae-7d77-462e-8e05-60c5e31f60ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="states">
+      <UniqueIdentifier>{bd9cac2d-68b7-403d-a2f0-c023577a8490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="elements">
+      <UniqueIdentifier>{eaf42d8e-b97a-46bd-a88d-43a95dcd5b1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\..\inc\logic\logic_load_map_state.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\logic\logic_play_state.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\logic\logic_command.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\logic\logic_command_queue.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\logic\logic_ball_facet.h">
+      <Filter>facets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\logic\logic_brick_facet.h">
+      <Filter>facets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\logic\logic_player_facet.h">
+      <Filter>facets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\logic\logic_unload_map_state.h">
+      <Filter>states</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\logic\logic_load_map_state.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\logic\logic_play_state.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\logic\logic_command.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\logic\logic_command_queue.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\logic\logic_unload_map_state.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="states">
+      <UniqueIdentifier>{19680c54-c135-4fb7-a3d3-6d8d7acf610f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command">
+      <UniqueIdentifier>{b7269c7e-c721-4fb4-9297-2bead53b6300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="facets">
+      <UniqueIdentifier>{0013dee9-40c5-49ac-9b74-94226bbcdb33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

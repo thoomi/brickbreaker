@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\..\inc\graphics\graphics_entity_renderer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\graphics\graphics_console.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\graphics\graphics_play_state.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\graphics\graphics_console_facet.h">
+      <Filter>facets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\graphics\graphics_load_map_state.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\graphics\graphics_gui_renderer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\inc\graphics\graphics_main_menu_state.h">
+      <Filter>states</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\graphics\graphics_console.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\graphics_entity_renderer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\graphics_play_state.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\graphics_load_map_state.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\graphics_gui_renderer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\graphics_main_menu_state.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{7af6e9bd-d585-4d29-b4ae-c552bdaa2868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{fc810117-fd35-4807-97ad-c6406948199a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="states">
+      <UniqueIdentifier>{4f531eec-f84b-4acc-bc23-f565c2c0001e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="facets">
+      <UniqueIdentifier>{5723bc26-fef2-4aa7-a266-84eeef4485a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
