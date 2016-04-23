@@ -1,6 +1,3 @@
-bin
-lib
-intern/build
 *.opensdf
 *.user
 *.sdf
