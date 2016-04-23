@@ -180,7 +180,7 @@ namespace Core
 
     float CVector3::GetLength()
 	{
-        return sqrt(GetDotProduct(*this));
+        return sqrtf(GetDotProduct(*this));
 	}
 
     CVector3& CVector3::Normalize()

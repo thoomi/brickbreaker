@@ -73,7 +73,7 @@ namespace Gfx
         // Disabled the FillConsoleOutput because it caused some weired rendering issue
         // in release mode.
         // -----------------------------------------------------------------------------
-        /*
+        
         CONSOLE_SCREEN_BUFFER_INFO ScreenBufferInfo;
         COORD                      OriginCoord = { 0, 0 };
 
@@ -85,14 +85,14 @@ namespace Gfx
 
         FillConsoleOutputCharacter(m_pActiveBuffer, static_cast<TCHAR>(m_ClearSymbol), MaxNumberOfChars, OriginCoord, &NumberOfWrittenChars);
         FillConsoleOutputAttribute(m_pActiveBuffer, ScreenBufferInfo.wAttributes, MaxNumberOfChars, OriginCoord, &NumberOfWrittenChars);
-        */
+        
 
-        SetConsoleTextAttribute(m_pActiveBuffer, EAttribute::BlackOnBlack);
+        /*SetConsoleTextAttribute(m_pActiveBuffer, EAttribute::BlackOnBlack);
 
         for (unsigned int IndexOfChar = 0; IndexOfChar < s_MaxNumberOfCharacters; IndexOfChar++)
         {
             WriteConsole(m_pActiveBuffer, &m_ClearSymbol, 1, &NumberOfWrittenChars, nullptr);
-        }
+        }*/
     }
 
     void CConsole::SwapBuffers()
